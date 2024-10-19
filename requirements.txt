@@ -5,3 +5,5 @@ llama-index-llms-openai
 nltk
 pypdf
 llama-index-embeddings-huggingface
+plotly
+pycountry
