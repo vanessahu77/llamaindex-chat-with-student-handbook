@@ -1,12 +1,13 @@
-# 🦙📚 Columbia Copilot
+# 🦙📚 Regional Economic Outlook Copilot
 
-Columbia Copilot is an AI-powered chatbot designed to answer questions about Columbia University. It leverages the capabilities of OpenAI's GPT-4o and LlamaIndex to provide accurate and contextually relevant responses based on the data it has been trained on.
+Regional Economic Outlook Copilot is an AI-powered chatbot designed to answer questions about Regional Economic Outlook using information on reported produced by IMF and data from World Bank. It leverages the capabilities of OpenAI's GPT-4o and LlamaIndex to provide accurate and contextually relevant responses based on the data it has been trained on.
 
 ## Overview of the App
 
 - Takes user queries via Streamlit's `st.chat_input` and displays both user queries and model responses with `st.chat_message`.
 - Use `Copilot` class to interact with the chatbot by passing in a question and a list of messages and get a response.
 - Uses LlamaIndex to load and index data and create a Retriever to retrieve context from that data to respond to each user query.
+- `Economic Data Visualization` that pulls in historical and latest data on major world econmic indicators, and provides time series and geographical visualizations. 
 
 ## Demo App
 
